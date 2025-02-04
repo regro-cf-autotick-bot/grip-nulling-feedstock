@@ -1,5 +1,5 @@
 {% set name = "grip-nulling" %}
-{% set version = "1.4.0" %}
+{% set version = "1.5.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/grip_nulling-{{ version }}.tar.gz
-  sha256: 61aca8ec1940cc67e014c68ff2ba2b7e2ce0de173164b0ccdf4bd5632e136e5b
+  sha256: 27c25acf9be39fd98fb55568f72e4a3a4130457b4252543d069d5739a30dfc6c
 
 build:
   noarch: python
@@ -40,8 +40,8 @@ about:
   home: https://github.com/mamartinod/grip
   summary: Self-calibration data reduction tools for nulling interferometry
   description: |
-   GRIP is a novel data reduction methods providing self-calibrated methods for nulling interferometry.
-   Check https://github.com/mamartinod/grip for more information
+    GRIP is a novel data reduction methods providing self-calibrated methods for nulling interferometry.
+    Check https://github.com/mamartinod/grip for more information
   license: MIT
   license_family: MIT
   license_file: LICENSE
